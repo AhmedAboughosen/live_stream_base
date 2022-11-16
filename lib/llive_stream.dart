@@ -7,7 +7,7 @@ abstract class StreamBase<T> {
 
   late T state;
 
-  bool get hasData;
+  bool get hasState;
 
   bool get hasError;
 
