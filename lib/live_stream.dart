@@ -5,12 +5,11 @@ abstract class StreamBase<T> {
 
   ValueStream<T> get listener;
 
-  late T state;
+  T get state;
 
   bool get hasState;
 
   bool get hasError;
 
-  Object get error ;
-
+  Object get error;
 }
